@@ -157,6 +157,7 @@ yarn_2_install() {
     fi
   else
     monitor "yarn-2-install" yarn install --immutable 2>&1
+  fi
 }
 
 yarn_prune_devdependencies() {
